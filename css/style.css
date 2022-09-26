@@ -16,6 +16,12 @@ h1{
     padding-top: 106px;
     padding-bottom: 77px;
 }
+h2{
+    padding-top: 166px;
+    font-size: 30px;
+    word-spacing: 15px;
+}
+
 /* common */
 li{
     list-style-type: none;
@@ -28,6 +34,10 @@ button{
 }
 .container-big{
     max-width: 1180px;
+    margin: auto;
+}
+.container-small{
+    max-width: 1000px;
     margin: auto;
 }
 
