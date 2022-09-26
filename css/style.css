@@ -1,0 +1,36 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* tipografy */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* common */
+li{
+    list-style-type: none;
+}
+button{
+    border: none;
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* header */
+header .row{
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-header{
+    display: flex;
+}
+.lista-header li{
+    margin: 0 20px;
+}
+
