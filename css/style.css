@@ -19,11 +19,31 @@ h1{
 h2{
     padding-top: 166px;
     font-size: 30px;
-    word-spacing: 15px;
+    word-spacing: 10px;
 }
-
+.small{
+    font-size: smaller;
+    padding-top: 20px;
+}
+.prezzo{
+    font-style: bold;
+    padding-top: 25px;
+}
+h4{
+    padding-top: 35px;
+}
+.contenuto hr{
+    width: 45px;
+    margin-top: 40px;
+}
+h5{
+    padding-top: 50px;
+}
+.contenuto ul{
+    list-style-type: circle;
+}
 /* common */
-li{
+.lista-header li{
     list-style-type: none;
 }
 button{
@@ -40,6 +60,7 @@ button{
     max-width: 1000px;
     margin: auto;
 }
+
 
 
 /* header */
@@ -78,4 +99,65 @@ h1{
 }
 .hero-left i{
     margin-top: 80px;
+}
+.fatturazione{
+    padding-top: 76px;
+}
+.col{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.col i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.col1{
+    border: 1px solid black;
+    width: calc(100% / 3 - 20px);
+}
+.tipo{
+    padding: 5px 100px;
+}
+.contenuto{
+    border: 1px solid black;
+}
+.pacchetti{
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.contenuto{
+    padding-left: 15px;
+}
+.contenuto button{
+    margin-top: 50px;
+    font-size: larger;
+}
+.link{
+    padding-top: 36px;
+}
+.vantaggi{
+    padding-top: 30px;
+}
+.col2{
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.col2 i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.col2a{
+    border: 1px solid black; 
+    border-top: none;
+}
+.col2 .tipo{
+    text-align: center;
+}
+.team{
+    display: flex;
+}
+.team button{
+    justify-content: right;
+    right: 0s;
 }
