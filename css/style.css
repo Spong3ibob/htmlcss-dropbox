@@ -65,6 +65,9 @@ button{
     max-width: 1000px;
     margin: auto;
 }
+.img-operazioni{
+    height: 200px;
+}
 
 
 
@@ -75,7 +78,6 @@ header .row{
     display: flex;
     justify-content: space-between;
 }
-
 .lista-header{
     display: flex;
 }
@@ -142,9 +144,7 @@ h1{
 .vantaggi{
     padding-top: 30px;
 }
-li:last-child{
-    padding-bottom: 70px;
-}
+
 .col2{
     border: 1px solid black;
     margin-top: 50px;
@@ -173,4 +173,40 @@ li:last-child{
 .descrition{
     padding-top: 50px;
     padding-bottom: 35px;
+}
+.partner{
+    display: flex;
+    padding-top: 150px;
+}
+.img-partner{
+    height: 500px;
+    width: 600px;
+}
+.img-descrition{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.img-descrition p{
+    padding-top: 30px;
+}
+.img-descrition button{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    margin-top: 35px;
+    padding: 10px;
+}
+.operazioni{
+    padding-top: 170px;
+    display: flex;
+    margin: auto;
+}
+.col3 img{
+    padding-top: 80px;
+}
+.col3 h4{
+    padding-top: 30px;
+}
+.col3 p{
+    padding-top: 40px;
 }
