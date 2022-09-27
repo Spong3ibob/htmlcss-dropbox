@@ -26,7 +26,7 @@ h2{
     padding-top: 20px;
 }
 .prezzo{
-    font-style: bold;
+    font-weight: bold;
     padding-top: 25px;
 }
 h4{
@@ -42,6 +42,11 @@ h5{
 .contenuto ul{
     list-style-type: circle;
 }
+.info{
+    padding-top: 30px;
+    font-weight: bold;
+}
+
 /* common */
 .lista-header li{
     list-style-type: none;
@@ -50,7 +55,7 @@ button{
     border: none;
     background-color: #0061ff;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 30px;
 }
 .container-big{
     max-width: 1180px;
@@ -118,9 +123,7 @@ h1{
 }
 .tipo{
     padding: 5px 100px;
-}
-.contenuto{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .pacchetti{
     flex-wrap: wrap;
@@ -139,6 +142,9 @@ h1{
 .vantaggi{
     padding-top: 30px;
 }
+li:last-child{
+    padding-bottom: 70px;
+}
 .col2{
     border: 1px solid black;
     margin-top: 50px;
@@ -150,14 +156,21 @@ h1{
 .col2a{
     border: 1px solid black; 
     border-top: none;
+    padding-left: 25px;
 }
 .col2 .tipo{
     text-align: center;
 }
 .team{
     display: flex;
+    justify-content: space-between;
 }
 .team button{
-    justify-content: right;
-    right: 0s;
+    font-size: large;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.descrition{
+    padding-top: 50px;
+    padding-bottom: 35px;
 }
