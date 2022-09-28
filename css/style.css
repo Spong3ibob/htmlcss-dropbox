@@ -70,6 +70,10 @@ button{
 }
 
 /* header */
+nav{
+    position: relative;
+    z-index: 10;
+}
 header .row{
     height: 80px;
     align-items: center;
@@ -218,4 +222,59 @@ h1{
 .titolo{
     font-size: 30px;
     padding-top: 170px;
+}
+.elenco{
+    font-size: 30px;
+    padding-top: 215px;
+}
+.link-partner{
+    padding-top: 70px;
+}
+.elenco-partner{
+    display: flex;
+    padding-top: 150px;
+}
+.partner-col{
+    height: 30vw;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.partner-col .centro{
+    width: 30vw;
+    overflow-y: auto;
+}
+.img-partner{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+.partner-col img{
+    height: 50px;
+    color: white;
+}
+.img1{
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+.img2{
+    background-color: #61082b;
+}
+.img3{
+    background-color: #0093ce;
+}
+.img4{
+    background-color: #ff1c1c;
+}
+.img5{
+    background-color: #d5001f;
+}
+.img6{
+    background-color: #b4d0e7;
+}
+.img7{
+    background-color: #0d2481;
+}
+.img8{
+    background-color: #ffd830;
 }
