@@ -348,3 +348,29 @@ h1{
     padding: 15px 50px;
     font-size: 20px;
 }
+.domande{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    border-top: 1px solid black;
+    padding: 20px 0;
+}
+.domande1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    margin-bottom: 150px;
+}
+.domande i{
+    font-size: 20px;
+}
+.domande1 i{
+    font-size: 20px;
+}
+.titolo-domande{
+    padding-top: 170px;
+    padding-bottom: 70px;
+}
