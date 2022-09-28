@@ -234,47 +234,74 @@ h1{
     display: flex;
     padding-top: 150px;
 }
-.partner-col{
-    height: 30vw;
-    width: 30vw;
+.partner-colsx{
+    max-width: 33,3vw;
+    height: 33.3vw;
     display: flex;
     flex-wrap: wrap;
 }
-.partner-col .centro{
-    width: 30vw;
-    overflow-y: auto;
+.partner-colcentro{
+    text-align: left;
+    padding: 50px 50px;
+    max-width: 33,3vw;
+    background-color: #f5f5f5;
 }
-.img-partner{
-    width: 50%;
-    height: 50%;
-    text-align: center;
+.partner-coldx{
+    max-width: 33,3vw;
+    height: 33.3vw;
+    display: flex;
+    flex-wrap: wrap;
 }
-.partner-col img{
-    height: 50px;
+.img-svg{
     color: white;
+    width: 75%;
+    height: auto;
 }
-.img1{
+.contenitore-img1{
     background-color: #a2d39b;
     border: 15px solid #d1e9cd;
+    width: 50%;
+    height: 50%;
 }
-.img2{
+.contenitore-img2{
     background-color: #61082b;
+    width: 50%;
+    height: 50%;
 }
-.img3{
+.contenitore-img3{
     background-color: #0093ce;
+    width: 50%;
+    height: 50%;
 }
-.img4{
+.contenitore-img4{
     background-color: #ff1c1c;
+    width: 50%;
+    height: 50%;
 }
-.img5{
+.contenitore-img5{
     background-color: #d5001f;
+    width: 50%;
+    height: 50%;
 }
-.img6{
+.contenitore-img6{
     background-color: #b4d0e7;
+    width: 50%;
+    height: 50%;
 }
-.img7{
+.contenitore-img7{
     background-color: #0d2481;
+    width: 50%;
+    height: 50%;
 }
-.img8{
+.contenitore-img8{
     background-color: #ffd830;
+    width: 50%;
+    height: 50%;
+}
+.hr-centro{
+    width: 110px;
+    margin: 52px 0;
+}
+.dimensioni-svg{
+    width: 270px;
 }
