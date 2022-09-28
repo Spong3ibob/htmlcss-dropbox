@@ -374,3 +374,22 @@ h1{
     padding-top: 170px;
     padding-bottom: 70px;
 }
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+.row-footer{
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: space-around;
+}
+.li-footer{
+    list-style-type: none;
+}
+.li-footer li{
+    padding-top: 10px;
+}
+.titolo-lista{
+    padding-top: 110px;
+}
