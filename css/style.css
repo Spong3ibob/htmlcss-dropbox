@@ -380,9 +380,8 @@ footer{
     color: white;
 }
 .row-footer{
-    width: calc(100% / 5);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .li-footer{
     list-style-type: none;
@@ -392,4 +391,14 @@ footer{
 }
 .titolo-lista{
     padding-top: 110px;
+}
+.hr-footer{
+    width: 125px;
+    margin-top: 110px;
+}
+.lingua i{
+    font-size: 16px;
+}
+.lingua{
+    padding: 55px 0;
 }
