@@ -46,6 +46,13 @@ h5{
     padding-top: 30px;
     font-weight: bold;
 }
+li i{
+    color: #0061ff;
+}
+.titolo-piani{
+    font-size: 22px;
+}
+
 
 /* common */
 .lista-header li{
@@ -70,15 +77,18 @@ button{
 }
 
 /* header */
-nav{
-    position: relative;
-    z-index: 10;
+.position{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
 }
 header .row{
     height: 80px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    box-shadow: 5px 5px 5px #dedede;
 }
 .lista-header{
     display: flex;
@@ -122,12 +132,13 @@ h1{
     padding-right: 5px;
 }
 .col1{
-    border: 1px solid black;
+    border: 1px solid lightslategrey;
     width: calc(100% / 3 - 20px);
 }
 .tipo{
     padding: 5px 100px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightslategray;
+    text-align: center;
 }
 .pacchetti{
     flex-wrap: wrap;
@@ -145,18 +156,26 @@ h1{
 }
 .vantaggi{
     padding-top: 30px;
+    list-style-type: none;
+}
+.vantaggi1{
+    padding-top:30px;
+    padding-bottom: 50px;
+    list-style-type: none;
 }
 
+
 .col2{
-    border: 1px solid black;
+    border: 1px solid lightslategray;
     margin-top: 50px;
+    border-bottom: none;
 }
 .col2 i{
     font-size: 16px;
     padding-right: 5px;
 }
 .col2a{
-    border: 1px solid black; 
+    border: 1px solid lightslategray; 
     border-top: none;
     padding-left: 25px;
 }
